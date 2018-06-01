@@ -10,9 +10,9 @@
 
 	<title>Info Page James</title>
 
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/InfoPage_James.css">
-
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
   			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   			crossorigin="anonymous"></script>
@@ -22,57 +22,101 @@
 
 <body>
 
-	<div>
-		<h1>Hi! My name is James Copeland</h1>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Project Showcase</a>
+			</div>
 
-		<img src="resources/ProfilePicture.jpg" alt="Profile Picture"  style="width:500px;height:350px" >
+			<div class="collapse navbar-collapse" id="bs-nav-demo">
+				<ul class="nav navbar-nav">
+					<li><a href="#">Team Members</a></li>
+					<li><a href="#">References</a></li>
+				</ul>
 
-		<h2>--Junior Software Engineer</h2>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Sign Up</a></li>
+					<li><a href="#">Login</a></li>
+				</ul>
+			</div>	
+		</div>	
+	</nav>
 
-		<a href="resources/resume_v6.pdf" target="_blank" title="Download Resume">Download Resume</a>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6" id="introBlock" >
+				<div  >
+					<h1>My name is James Copeland</h1>
+					<h2>I am a Junior Software Engineer</h2>
+				</div>	
+				<div class="row" id="resumeBlock">
+					<div class="col-lg-6">
+						<h3>Click on the icon to download my resume!</h3>
+					</div>
+
+					<div class="col-lg-6">
+						<a href="resources/resume_v6.pdf" target="_blank" title="Download Resume">
+							<i class="fas fa-file-alt"></i>
+						</a>
+					</div>
+				</div>	
+			</div>
+
+			<div class="col-lg-3">
+				<img src="resources/ProfilePicture.jpg" alt="Profile Picture" id="ProfilePic" style="width:555px;height:370px;">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="row" id="infoBlock">
+					<div class="col-lg-6 subBlock">
+						<div>
+							<h2>Education - Completed</h2>
+							<p><strong>Batchelor's Degree in Chemical Engineering</strong></p>
+							<p>Institution: University of South Florida</p>	
+							<p>Data Graduated: May 2018 </p>
+						</div>
+
+						<div>
+							<p><strong>AA Degree</strong></p>
+							<p>Institution: St. Petersburg College</p>	
+							<p>Data Graduated: May 2015 </p>
+						</div>
+
+						
+						<div>
+							<h2>Education - In Progress</h2>
+							<p><strong>Master's Degree in Computer Science</strong></p>
+							<p>Institution: Georgia Institute of Technology</p>	
+							<p>Expected Graduation Date: May 2020 </p>
+						</div>
+					</div>
+
+					<div class="col-lg-6 subBlock">
+						<h2>Contact Information</h2>
+						<div>
+							<p><strong>Phone Number:</strong> (727)-331-5726</p>
+							<p><strong>Email:</strong> james.copeland.m@gmail.com</p>
+							<p><strong>LinkedIn:</strong> in-progress</p>			
+						</div>
+
+						<div>
+							<h2>About Me</h2>
+
+							<p>Ham cow proident, laboris magna brisket strip steak in ground round jerky pancetta burgdoggen. Cupim pork chop cow, bacon corned beef nulla shankle landjaeger. Ham hock t-bone frankfurter bacon. Pariatur nostrud turkey esse cupim hamburger ut ipsum prosciutto beef shank. Do tail aliquip pig enim nulla, cupim sunt in. Landjaeger brisket dolore nulla turducken, sirloin flank magna aliqua ipsum cupidatat.</p>
+
+							<p>Drumstick pig pancetta turkey, kevin mollit enim ullamco ut excepteur est. Tri-tip short ribs ground round qui kevin culpa picanha elit shoulder flank cupidatat landjaeger. Pork anim bacon ribeye. Meatball commodo boudin, sed in id velit spare ribs. Pastrami shoulder laboris ut, irure adipisicing in duis venison biltong. Officia voluptate jerky ham hock cow turducken.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-
-	<h2>Education</h2>
-
-	<div>
-		<p><strong>Batchelor's Degree in Chemical Engineering</strong></p>
-		<p>Institution: University of South Florida</p>	
-		<p>Data Graduated: May 2018 </p>
-	</div>
-
-	<div>
-		<p><strong>AA Degree</strong></p>
-		<p>Institution: St. Petersburg College</p>	
-		<p>Data Graduated: May 2015 </p>
-	</div>
-
-	<h2>Education - In Progress</h2>
-	<div>
-		<p><strong>Master's Degree in Computer Science</strong></p>
-		<p>Institution: Georgia Institute of Technology</p>	
-		<p>Expected Graduation Date: May 2020 </p>
-	</div>
-
-	<h2>Contact Information</h2>
-	<div>
-		<p><strong>Phone Number:</strong> ###</p>
-		<p><strong>Email:</strong> ###</p>
-		<p><strong>LinkedIn:</strong> in-progress</p>
-
-	<h2>About Me</h2>
-	</div>
-
-
-	<div>
-		<p>Ham cow proident, laboris magna brisket strip steak in ground round jerky pancetta burgdoggen. Cupim pork chop cow, bacon corned beef nulla shankle landjaeger. Ham hock t-bone frankfurter bacon. Pariatur nostrud turkey esse cupim hamburger ut ipsum prosciutto beef shank. Do tail aliquip pig enim nulla, cupim sunt in. Landjaeger brisket dolore nulla turducken, sirloin flank magna aliqua ipsum cupidatat.</p>
-
-		<p>Drumstick pig pancetta turkey, kevin mollit enim ullamco ut excepteur est. Tri-tip short ribs ground round qui kevin culpa picanha elit shoulder flank cupidatat landjaeger. Pork anim bacon ribeye. Meatball commodo boudin, sed in id velit spare ribs. Pastrami shoulder laboris ut, irure adipisicing in duis venison biltong. Officia voluptate jerky ham hock cow turducken.</p>
-
-		<p>Ea chicken in aliqua. Porchetta fugiat aute landjaeger labore. Irure prosciutto duis, cillum ullamco salami jerky biltong nostrud drumstick ribeye ham hock pariatur consequat. Dolore bacon aute, fatback proident cillum pig do nostrud. Picanha nulla ground round filet mignon consectetur. Tempor pork ut officia nulla consequat meatloaf sint ribeye kielbasa beef sausage commodo ham.</p>
-
-
-	</dir>
-
-
 </body>
 </html>
