@@ -1,0 +1,19 @@
+textarea {width: 100%;}
+
+
+#originalHTML {
+
+
+
+}
+
+#submitForm {
+	background: white;
+	margin: 5px auto;
+	padding: 10px;
+}
+
+#submitForm h2 {
+	padding-bottom: 5px;
+	border-bottom: solid black 1px;
+}

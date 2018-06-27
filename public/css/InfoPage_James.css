@@ -1,0 +1,185 @@
+body {
+	padding-top: 50px;
+	padding-bottom: 60px;
+	background: #FFFFFF;
+	color: rgb(41, 46, 63);
+	margin: auto;
+}
+
+h1 {
+	letter-spacing: 0.2px;
+	font-weight: 900;
+}
+
+h3 {
+	font-weight: 500;
+	letter-spacing: 0.3px;
+	color: black;
+}
+
+table {
+	width: 100%;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: #5e5e5e;
+    background-image: linear-gradient(to right, #ccc, #5e5e5e, #ccc);
+    margin: 40px auto;
+}
+
+p {
+	font-size: 17px;
+}
+
+#mainBody li {
+	font-size: 17px;
+	margin-bottom: 5px;
+}
+
+#mainBody ul ul li {
+	margin-bottom: 5px;
+}
+
+#mainBody ul {
+	margin-bottom: 10px;
+}
+
+.navbar-inverse {
+	background: rgb(41, 46, 63);
+	margin-bottom: 0;
+	border: 0;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #ecf0f1;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+}
+
+.navbar-inverse .navbar-brand:hover {
+	color: rgb(41, 46, 63);
+	background: #ecf0f1;
+	border-radius: 4px;
+}
+
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #ecf0f1;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: rgb(41, 46, 63);
+	background: #ecf0f1;
+	border-radius: 4px;
+}
+
+ .btn {
+	background: #00701c;
+	color: #ecf0f1;
+	border:	none;
+ }
+
+.checkpoints {
+	color: rgb(15,119,188);
+	margin: auto;
+	text-align: center;
+}
+
+.icons {
+	font-size: 50px;
+	letter-spacing: 5px;
+}
+
+.iconLabels {
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: black;
+}
+
+.incomplete {
+	opacity: 0.3;
+}
+
+.btn-block {
+	background: rgb(15,119,188);
+}
+
+.projectShowcase {
+	margin-top: 10px;
+}
+
+.projects {
+}
+
+.projectTitle {
+	padding-left: 10px;
+	font-weight: 500;
+}
+
+.projectDescription{
+	background: #ecf0f1;
+	border-radius: 25px;
+	padding: 10px;
+	margin: 20px auto;
+}
+
+
+.projectPic {
+	display: block;
+	max-width: 600px;
+	width: 100%;
+	height: auto;
+	margin: auto;
+	padding: 10px;
+}
+
+.removed {
+	display: none;
+}
+
+.p_tab {
+	border-left: 5px solid #999999;
+	padding-left: 5px;
+}
+
+#topSection {
+	margin: 0 0;
+	padding: 20px 0;
+	color: white;
+	background: rgb(15,119,188);
+}
+
+
+#introBlock {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+#resumeBlock {
+	padding-top: 25px;
+}
+
+
+#profilePic {
+	display: block;
+	max-width: 555px;
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+	margin: auto;
+}
+
+#infoBlock {
+	border-radius: 25px;
+	background: #ecf0f1;
+	margin: 25px 0;
+	
+}
+
